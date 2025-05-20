@@ -1,5 +1,5 @@
 {
-    "name": "KILLBOT",
+    "name": "INCBOT",
     "version": "2.0.7",
     "description": "Simple WhatsApp Bot Multi Device",
     "main": "index.js",
@@ -18,20 +18,20 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/Adrianmaze/KILLBOT",
+    "homepage": "https://github.com/Adrianmaze/INCBOT",
     "author": {
-        "name": "KILLBOT"
+        "name": "INCBOT"
     },
     "collaborators": {
-        "col1": "@KILLBOT",
+        "col1": "@INCBOT",
         "col2": "@Anuar"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Adrianmaze/KILLBOT.git"
+        "url": "git+https://github.com/Adrianmaze/INCBOT.git"
     },
     "bugs": {
-        "url": "https://github.com/Adrianmaze/KILLBOT/issues"
+        "url": "https://github.com/Adrianmaze/INCBOT/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

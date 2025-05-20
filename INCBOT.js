@@ -168,13 +168,13 @@ if (!fs.existsSync(`./${sessions}/creds.json`)) {
         }
       } else {
         while (true) {
-          numeroTelefono = await question(chalk.bgBlack(chalk.bold.greenBright(`🍁 Por favor, escriba su número de WhatsApp.\n💎 Ejemplo: 56983073328\n`)))
+          numeroTelefono = await question(chalk.bgBlack(chalk.bold.greenBright(`🍁 Por favor, escriba su número de WhatsApp.\n💎 Ejemplo: 51963318746\n`)))
           numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
           if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
             break
           } else {
-            console.log(chalk.bgBlack(chalk.bold.greenBright(`🍁 Por favor, escriba su número de WhatsApp.\n💎 Ejemplo: 56983073328\n`)))
+            console.log(chalk.bgBlack(chalk.bold.greenBright(`🍁 Por favor, escriba su número de WhatsApp.\n💎 Ejemplo: 51963318746\n`)))
           }
         }
         rl.close()
